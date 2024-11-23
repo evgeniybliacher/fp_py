@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fp-py"
+version = "0.1.0"
+description = ""
+authors = ["Evgeniy Bliacher <evgeniy.bliacher@alterahealth.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.3"
+assertpy = "^1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
