@@ -1,7 +1,7 @@
 from typing import TypeVar
 import pytest
 from assertpy import assert_that
-from fp_py.types import typed_lambda, untyped_lambda
+from fp_py.types.lambda_types import typed_lambda, untyped_lambda
 
 
 T = TypeVar('T')
