@@ -53,6 +53,7 @@ def test_maybe_semigroup():
     assert_that(j.is_nothing()).is_false()
     assert_that(j.unwrap()).is_equal_to(28)
     assert_that((Nothing()+Nothing()).is_nothing()).is_true()
+
 @pytest.mark.maybe
 def test_maybe_monoid():
     v = unit(42)
