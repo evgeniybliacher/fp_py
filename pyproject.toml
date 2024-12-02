@@ -20,5 +20,7 @@ build-backend = "poetry.core.masonry.api"
 markers = [
     "lambdacalculus",
     "maybe",
-    "either"
+    "either",
+    "trymonad",
+    "validation"
 ]

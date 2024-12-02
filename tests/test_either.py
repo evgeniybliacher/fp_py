@@ -1,4 +1,3 @@
-
 import pytest
 
 from fp_py.Either import Left, Right

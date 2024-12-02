@@ -196,3 +196,7 @@ assert(isinstance(Right, Monad))
 assert(isinstance(Left, Functor))
 assert(isinstance(Left, Applicative))
 assert(isinstance(Left, Monad))
+
+
+class Try[TSource](Right[Exception, TSource]):
+    pass
